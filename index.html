@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <h1 class="title">Dictaphone</h1>
+      <div class="controls">
+        <audio id="audioFeed" controls></audio>
+        <button id="startButton" class="btn record">Почати запис</button>
+        <p id="recordingIndicator" class="recordingIndicator">Recording...</p>
+        <button id="stopButton" class="btn stop">Зупинити запис</button>
+      </div>
+      <div class="recordingList-container">
+        <h2 class="section-title">My redordings:</h2>
+        <ul id="recordingsList" class="recordingsList"></ul>
+      </div>
+    </div>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
